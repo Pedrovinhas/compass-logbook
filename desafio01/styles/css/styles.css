@@ -1,0 +1,160 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body, button {
+  font-family: "Poppins", sans-serif;
+}
+
+a, a:visited {
+  color: none;
+  text-decoration: none;
+}
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 85vh;
+}
+
+.box .text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.box .text-container .text {
+  width: 30rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  gap: 2.6rem;
+}
+
+.box .text-container .text h1 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  text-shadow: 0px 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+}
+
+.box .text-container .text span {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.box .text-container .navigation-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1.8rem;
+  margin-top: 6.4rem;
+  margin-bottom: 6.4rem;
+}
+
+.box .text-container .navigation-dots a {
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 1px solid #263238;
+  border-radius: 1.6rem;
+  cursor: pointer;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+.box .text-container .navigation-dots a:hover {
+  border: 1px solid #92E3A9;
+  background-color: #92E3A9;
+}
+
+.box .text-container .navigation-dots a:visited {
+  background-color: #92E3A9;
+}
+
+.box .text-container .button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.6rem;
+}
+
+.box .text-container .button-container button {
+  width: 30.8rem;
+  height: 5.4rem;
+  border: none;
+  color: #92E3A9;
+  background-color: white;
+  cursor: pointer;
+  -webkit-transition: .4s ease-in;
+  transition: .4s ease-in;
+}
+
+.box .text-container .button-container button:hover {
+  background-color: #92E3A9;
+  color: #EBEBEB;
+  -webkit-box-shadow: 0px 4px 10px #A1C3FC;
+          box-shadow: 0px 4px 10px #A1C3FC;
+}
+
+.box .text-container .button-container button a {
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: #92E3A9;
+  display: block;
+  width: 100%;
+}
+
+.box .text-container .button-container .btn-continue {
+  background-color: #92E3A9;
+  color: white;
+}
+
+.box .text-container .button-container .btn-continue .continue-link {
+  color: white;
+}
+/*# sourceMappingURL=styles.css.map */
