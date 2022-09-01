@@ -18,6 +18,81 @@ a, a:visited {
   text-decoration: none;
 }
 
+button {
+  width: 30.8rem;
+  height: 5.4rem;
+  border: none;
+  color: #92E3A9;
+  background-color: white;
+  cursor: pointer;
+}
+
+button a {
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: #92E3A9;
+  display: block;
+  width: 100%;
+}
+
+.btn-skip {
+  -webkit-transition: .4s ease-in;
+  transition: .4s ease-in;
+}
+
+.btn-skip:hover {
+  background-color: #92E3A9;
+  color: white;
+  -webkit-box-shadow: 0px 4px 10px #A1C3FC;
+          box-shadow: 0px 4px 10px #A1C3FC;
+}
+
+.btn-skip a:hover {
+  color: white;
+}
+
+.btn-continue {
+  background-color: #92E3A9;
+  color: white;
+  -webkit-transition: .4s ease-in;
+  transition: .4s ease-in;
+}
+
+.btn-continue:hover {
+  background-color: #92E3A9;
+  color: #EBEBEB;
+  -webkit-box-shadow: 0px 4px 10px #A1C3FC;
+          box-shadow: 0px 4px 10px #A1C3FC;
+}
+
+.btn-continue .continue-link {
+  color: white;
+}
+
+.navigation-dots a {
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 0.1rem solid #263238;
+  border-radius: 1.6rem;
+  cursor: pointer;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.navigation-dots a:visited {
+  background-color: #92E3A9;
+}
+
+.navigation-dots .dot:hover {
+  border: 1px solid #92E3A9;
+  background-color: #92E3A9;
+}
+
+.navigation-dots .active {
+  background-color: #92E3A9;
+  border: none;
+}
+
 .box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -93,25 +168,6 @@ a, a:visited {
   margin-bottom: 6.4rem;
 }
 
-.box .text-container .navigation-dots a {
-  width: 1.2rem;
-  height: 1.2rem;
-  border: 1px solid #263238;
-  border-radius: 1.6rem;
-  cursor: pointer;
-  -webkit-transition: .2s ease-in-out;
-  transition: .2s ease-in-out;
-}
-
-.box .text-container .navigation-dots a:hover {
-  border: 1px solid #92E3A9;
-  background-color: #92E3A9;
-}
-
-.box .text-container .navigation-dots a:visited {
-  background-color: #92E3A9;
-}
-
 .box .text-container .button-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -121,40 +177,5 @@ a, a:visited {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 1.6rem;
-}
-
-.box .text-container .button-container button {
-  width: 30.8rem;
-  height: 5.4rem;
-  border: none;
-  color: #92E3A9;
-  background-color: white;
-  cursor: pointer;
-  -webkit-transition: .4s ease-in;
-  transition: .4s ease-in;
-}
-
-.box .text-container .button-container button:hover {
-  background-color: #92E3A9;
-  color: #EBEBEB;
-  -webkit-box-shadow: 0px 4px 10px #A1C3FC;
-          box-shadow: 0px 4px 10px #A1C3FC;
-}
-
-.box .text-container .button-container button a {
-  font-weight: 500;
-  font-size: 1.8rem;
-  color: #92E3A9;
-  display: block;
-  width: 100%;
-}
-
-.box .text-container .button-container .btn-continue {
-  background-color: #92E3A9;
-  color: white;
-}
-
-.box .text-container .button-container .btn-continue .continue-link {
-  color: white;
 }
 /*# sourceMappingURL=styles.css.map */

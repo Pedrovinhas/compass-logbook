@@ -1,0 +1,58 @@
+@import './variables';
+
+button {
+    width: 30.8rem;
+    height: 5.4rem;
+
+    border: none;
+    color: $primary-color;
+    background-color: white;
+
+    cursor: pointer;
+ 
+    
+    a {
+        font-weight: 500;
+        font-size: 1.8rem;
+        color: $primary-color;
+
+        display: block;
+        width: 100%;
+   
+    }
+
+}
+
+.btn-skip {
+    transition: .4s ease-in;
+
+    &:hover {
+        background-color: $primary-color;
+        color: white;
+        box-shadow: 0px 4px 10px #A1C3FC;
+    }
+
+    a:hover {
+        color: white;
+    }
+}
+
+
+.btn-continue {
+    background-color: $primary-color;
+    color: white;
+
+    transition: .4s ease-in;
+
+    &:hover {
+        background-color: $primary-color;
+        color: $secondary-color;
+        box-shadow: 0px 4px 10px #A1C3FC;
+
+       
+    }
+
+    .continue-link {
+        color: white;
+    }
+}
