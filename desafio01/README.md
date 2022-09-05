@@ -1,9 +1,16 @@
 <div align='center'>
-    <img width='100%' src="./.github/Medium-Screen-1024x800.png">
+    <img height='500px' src="./.github/Mockup.png">
 </div>
 
-## Projeto Onboarding
-- O objetivo do projeto Onboarding é construir 3 telas conforme o layout do Figma, utilizando **HTML5** e **SCSS**. Para facilitar, utilizei um plugin para capturar fotos das medidas de responsividade mais utilizdas. Você pode consultar todas as prints geradas por esse link.
+<p align="center">
+  <a href="#-Projeto-Onboarding"> Projeto</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#-Tecnologias">  Tecnologias</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#-Instrucoes">  Instruções</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#-Instrucoes">  To Do </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+
+## 💻 Projeto Onboarding
+- O objetivo do projeto Onboarding é construir 3 telas conforme o layout do Figma, utilizando **HTML5** e **SCSS**. Para facilitar, utilizei um plugin para capturar fotos das medidas de responsividade mais utilizdas. Você pode consultar todas as prints geradas por esse [link](./.github).
 
 ## 👩‍💻 Tecnologias
 - ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -28,3 +35,7 @@
 - [X] Navegação active dos links
 - [X] Acessibilidade com navegação por TAB + ENTER
 - [] Deploy
+
+---
+
+<blockquote> Feito por Pedro Henrique Vinhas 🪐 </blockquote>
