@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Hub - Authentication </title>
+
+    <link rel="stylesheet" href="styles/css/styles.css">
+    <link href="http://fonts.cdnfonts.com/css/tt-norms-pro" rel="stylesheet">
+   
+</head>
+<body>
+
+    <section>
+        <div class="img-container">
+            <span><img src="assets/basket-fruit-2.svg" alt="Cesta de frutas"></span>
+        </div>
+        <div class="order-container">
+            <div class="auth-container">
+                <span>
+                    What is your firstname?
+                </span>
+                <input placeholder="Chris" id="auth-name">
+                    
+                </input>
+            </div>
+            <div class="btn-order-container">
+                <a href="home-screen-page.html" >
+                    <button id="start-ordering-btn">
+                        Start Ordering     
+                    </button>
+                </a>
+            </div>
+        </div>
+    </section>
+      
+    <script>
+        const startOrderingBtn = document.getElementById('start-ordering-btn');
+        const authName = document.getElementById('auth-name')
+
+        startOrderingBtn.addEventListener('click', (e) => {
+            e.preventDefault()
+
+            const authNameValue = authName.value
+
+            localStorage.setItem('auth-name', authNameValue)
+
+            location.href = "home-screen-page.html"
+
+            authName.value = ''
+        })
+    </script>
+</body>
+</html>       
