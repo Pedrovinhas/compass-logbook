@@ -6,13 +6,13 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 
     .img-container {
         background-color: $primary-color;
 
         width: 100%;
         height: 46.9rem;
-
 
         display: flex;
         align-items: center;
@@ -103,5 +103,19 @@ section {
 
     }
 
+
+}
+
+@media screen and (min-width: 768px) {
+
+    section {
+        .img-container {
+            height: 40rem;
+
+            img {
+                width: 80%;
+            }
+        }
+    }
 
 }

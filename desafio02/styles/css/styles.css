@@ -98,6 +98,15 @@ section .text-continue-container .btn-container a button {
   cursor: pointer;
 }
 
+@media screen and (min-width: 768px) {
+  section .img-container {
+    height: 40rem;
+  }
+  section .img-container img {
+    width: 80%;
+  }
+}
+
 .animation-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -289,6 +298,7 @@ header .basket-box {
 .search-bar div input {
   width: 32.7rem;
   height: 100%;
+  padding: 1rem;
   border: none;
   outline: none;
   font-size: 1.4rem;
@@ -428,9 +438,9 @@ header .basket-box {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   width: 15.2rem;
   border-radius: 1rem;
   padding: 1rem;
@@ -441,6 +451,12 @@ header .basket-box {
 
 .foods-container .items-container .combo-item:hover {
   background-color: #F1EFF6;
+}
+
+.foods-container .items-container .combo-item .span-fruit {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .foods-container .items-container .combo-item .span-fruit::before {
@@ -519,7 +535,7 @@ header .basket-box {
 }
 
 .foods-container nav {
-  margin-top: 4rem;
+  margin-top: .4rem;
   margin-bottom: 2.4rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -858,7 +874,7 @@ html {
 body,
 input {
   font-family: "TT Norms Pro", sans-serif;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 a {
