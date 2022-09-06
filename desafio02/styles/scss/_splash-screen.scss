@@ -1,0 +1,12 @@
+.animation-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+
+    img {
+        width: 50vw;
+        max-height: 50vh;
+    }
+}    
