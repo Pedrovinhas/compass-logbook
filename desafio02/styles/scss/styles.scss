@@ -1,0 +1,95 @@
+@import 'variables';
+@import 'welcome-screen';
+@import 'splash-screen';
+@import 'auth-page';
+@import 'home-screen';
+@import 'add-to-basket';
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body,
+input {
+    font-family: $font;
+    overflow-x: hidden;
+    
+}
+
+a {
+    text-decoration: none;
+
+    &:visited {
+        color: black;
+    }
+}
+
+.active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    flex-direction: column;
+    gap: 1.2rem;
+  
+  }
+
+.animation {
+    animation: blink 5s ease-in-out .7s 1 normal forwards;
+}
+
+.loading-screen {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+.welcome-screen {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+
+
+@media screen and(min-width: 768px) {
+    html {
+        font-size: 72.5%;
+    }
+
+    body {
+        max-width: 100vw;
+    }
+}
+
+@keyframes blink {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}

@@ -1,0 +1,18 @@
+$primary-color: #FFA451;
+$secondary-color: #FFFFFF;
+
+$text-color-primary: #27214D;
+$text-color-secondary: #333333;
+$text-color-terciary: #5D577E;
+
+$font: 'TT Norms Pro', sans-serif;
+
+
+@mixin addSpan {
+    width: 2.4rem;
+    height: 2.4rem;
+
+    border-radius: 2.4rem;
+   
+    background-color: #FFF2E7;
+}
