@@ -296,3 +296,18 @@ header {
         }
     }
 }
+
+
+@media screen and (min-width: 1024px) {
+
+    .responsive {
+        display: flex;
+     .foods-container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+
+     
+    }
+}
+}
