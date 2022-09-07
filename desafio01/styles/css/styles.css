@@ -110,6 +110,15 @@ button a {
   height: 85vh;
 }
 
+.box img {
+  width: 35rem;
+  height: 35rem;
+}
+
+.box .third-image {
+  margin-top: 3rem;
+}
+
 .box .text-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -177,5 +186,40 @@ button a {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 1.6rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .box img {
+    width: 30rem;
+    margin-top: 5rem;
+  }
+  .box .third-image {
+    margin-top: 3rem;
+  }
+  .box .text-container .navigation-dots {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+
+@media screen and (max-height: 768px) {
+  .box img {
+    width: 30rem;
+    margin-top: 5.4rem;
+  }
+  .box .third-image {
+    margin-top: 3rem;
+  }
+  .box .text-container .navigation-dots {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+}
+
+@media screen and (max-height: 610px) {
+  .box img {
+    width: 22rem;
+    margin-top: 5.4rem;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

@@ -10,7 +10,7 @@
 </p>
 
 ## 💻 Projeto Onboarding
-O objetivo do projeto Onboarding é construir 3 telas conforme o layout do Figma, utilizando **HTML5** e **SCSS**. Para facilitar, utilizei um plugin para capturar fotos das medidas de responsividade mais utilizdas. Você pode consultar todas as prints geradas por esse [link](./.github).
+O objetivo do projeto Onboarding é construir 3 telas conforme o layout do Figma, utilizando **HTML5** e **SCSS**. Para facilitar a demonstração da responsividade, utilizei um plugin para capturar fotos das medidas mais comuns em aparelhos. Você pode consultar todas as prints geradas por esse [link](./.github).
 
 ## 👩‍💻 Tecnologias
 - ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
