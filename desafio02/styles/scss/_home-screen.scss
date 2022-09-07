@@ -311,3 +311,10 @@ header {
     }
 }
 }
+
+@media screen and (max-height: 812px) {
+    body {
+        overflow-y: scroll;
+        
+    }
+}

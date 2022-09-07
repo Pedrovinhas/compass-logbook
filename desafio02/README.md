@@ -40,6 +40,7 @@ O objetivo do projeto FruitHub é construir 5 telas iniciais de um ecommerce, co
 - [X] Contador com JavaScript na página Basket.
 - [X] LocalStorage para armazenar o nome da pessoa entre as páginas.
 - [X] Acessibilidade com navegação por TAB + ENTER
+- [ ] Personalizar scrollbar
 - [ ] Deploy
 
 ---

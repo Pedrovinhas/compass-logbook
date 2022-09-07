@@ -7,7 +7,7 @@ section {
     align-items: center;
     flex-direction: column;
     
-
+ 
     .img-container {
         background-color: $primary-color;
 
@@ -45,10 +45,6 @@ section {
                 
             }
         }
-
-       
-
-
     }
 
     .text-continue-container {
@@ -107,7 +103,6 @@ section {
 }
 
 @media screen and (min-width: 768px) {
-
     section {
         .img-container {
             height: 32rem;
@@ -119,4 +114,28 @@ section {
         }
     }
 
+}
+@media screen and (max-height: 768px) {
+    section {
+        .img-container {
+            height: 28rem;
+            span {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            img {
+                width: 70%;
+            }
+        }
+    }
+
+}
+
+@media screen and (min-height: 640px) {
+    body {
+        overflow: hidden;
+        
+    }
 }
