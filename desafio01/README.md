@@ -1,5 +1,7 @@
 <div align='center'>
-    <img height='500px' src="./.github/Mockup.png">
+    <img height='500px' src="./.github/Mockup-1.png">
+    <img height='500px' src="./.github/Mockup-2.png">
+    <img height='500px' src="./.github/Mockup-3.png">
 </div>
 
 <p align="center">
@@ -36,6 +38,7 @@ O objetivo do projeto Onboarding é construir 3 telas conforme o layout do Figma
 - [X] Responsividade
 - [X] Navegação active dos links
 - [X] Acessibilidade com navegação por TAB + ENTER
+- [X] Mockups
 - [ ] Deploy
 
 ---
