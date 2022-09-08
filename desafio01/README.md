@@ -1,7 +1,7 @@
 <div align='center'>
-    <img height='500px' src="./.github/Mockup-1.png">
-    <img height='500px' src="./.github/Mockup-2.png">
-    <img height='500px' src="./.github/Mockup-3.png">
+    <img height='400px' src="./.github/Mockup-1.png">
+    <img height='400px' src="./.github/Mockup-2.png">
+    <img height='400px' src="./.github/Mockup-3.png">
 </div>
 
 <p align="center">
