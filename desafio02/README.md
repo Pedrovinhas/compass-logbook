@@ -35,7 +35,7 @@ O objetivo do projeto FruitHub é construir 5 telas iniciais de um ecommerce, co
 ## 🏗 To Do
 - [X] Desenvolvimento Mobile-First
 - [X] Separação dos arquivos `.scss` e componentização do que se repete.
-- [X] Responsividade
+- [X] Responsividade para diversos dispositivos.
 - [X] Tela de carregamento
 - [X] Contador com JavaScript na página Basket.
 - [X] LocalStorage para armazenar o nome da pessoa entre as páginas.

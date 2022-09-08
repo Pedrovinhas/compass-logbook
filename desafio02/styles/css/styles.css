@@ -128,7 +128,7 @@ section .text-continue-container .btn-container a button {
   }
 }
 
-@media screen and (min-height: 640px) {
+@media screen and (min-height: 549px) {
   body {
     overflow: hidden;
   }
@@ -563,7 +563,6 @@ header .basket-box {
 
 .foods-container nav {
   margin-top: .4rem;
-  margin-bottom: 2.4rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -606,7 +605,33 @@ header .basket-box {
 
 @media screen and (max-height: 812px) {
   body {
-    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (min-height: 740px) and (max-height: 800px) {
+  .foods-container .items-container .combo-item .span-fruit img {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+
+@media screen and (min-height: 640px) and (max-height: 740px) {
+  header {
+    margin-top: 1.2rem;
+  }
+  .search-bar {
+    margin-top: .8rem;
+  }
+  .filter-container {
+    margin-top: .4rem;
+  }
+  .responsive .foods-container {
+    margin-top: 1.6rem;
+  }
+  .foods-container .items-container .combo-item .span-fruit img {
+    width: 5rem;
+    height: 5rem;
   }
 }
 
