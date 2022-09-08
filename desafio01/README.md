@@ -35,7 +35,7 @@ O objetivo do projeto Onboarding é construir 3 telas conforme o layout do Figma
 ## 🏗 To Do
 - [X] Desenvolvimento Mobile-First
 - [X] Separação dos arquivos `.scss`
-- [X] Responsividade
+- [X] Responsividade para diversos dispositivos
 - [X] Navegação active dos links
 - [X] Acessibilidade com navegação por TAB + ENTER
 - [X] Mockups
