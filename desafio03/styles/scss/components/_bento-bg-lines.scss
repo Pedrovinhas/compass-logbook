@@ -19,6 +19,12 @@
     background-position: top right -80px;
 }
 
+.purple-lines { // Adicionar no container-hider (fullpage)
+    background-image: url(/assets/bg-purple-lines.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
 .footer-dark-lines {
     background-image: url(/assets/footer-bottom-lines-dark.svg);
 }

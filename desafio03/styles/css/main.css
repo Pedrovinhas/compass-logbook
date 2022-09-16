@@ -32,6 +32,10 @@
   background: linear-gradient(180deg, #3A8FFF 0%, #0837AE 100%);
 }
 
+.mb-4 {
+  margin-bottom: 4rem;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -128,6 +132,10 @@ a, a:visited {
   background: linear-gradient(180deg, #3A8FFF 0%, #0837AE 100%);
 }
 
+.mb-4 {
+  margin-bottom: 4rem;
+}
+
 .secondary-color {
   background-color: #FFFFFF;
 }
@@ -159,6 +167,10 @@ a, a:visited {
 .blue-gradient {
   background: -webkit-gradient(linear, left top, left bottom, from(#3A8FFF), to(#0837AE));
   background: linear-gradient(180deg, #3A8FFF 0%, #0837AE 100%);
+}
+
+.mb-4 {
+  margin-bottom: 4rem;
 }
 
 header {
@@ -315,6 +327,10 @@ header .mobile-menu-hamburguer .span-hamburguer-secondary-color {
 .blue-gradient {
   background: -webkit-gradient(linear, left top, left bottom, from(#3A8FFF), to(#0837AE));
   background: linear-gradient(180deg, #3A8FFF 0%, #0837AE 100%);
+}
+
+.mb-4 {
+  margin-bottom: 4rem;
 }
 
 .welcome-section {
@@ -724,6 +740,10 @@ header .mobile-menu-hamburguer .span-hamburguer-secondary-color {
   background: linear-gradient(180deg, #3A8FFF 0%, #0837AE 100%);
 }
 
+.mb-4 {
+  margin-bottom: 4rem;
+}
+
 .navigation {
   margin-top: 3.2rem;
   display: -webkit-box;
@@ -1000,6 +1020,10 @@ header .mobile-menu-hamburguer .span-hamburguer-secondary-color {
   background: linear-gradient(180deg, #3A8FFF 0%, #0837AE 100%);
 }
 
+.mb-4 {
+  margin-bottom: 4rem;
+}
+
 .work-section {
   background-color: #FFFFFF;
 }
@@ -1152,6 +1176,109 @@ header .mobile-menu-hamburguer .span-hamburguer-secondary-color {
 
 .tablet-projects {
   display: none;
+}
+
+.bento-projects-section .portfolio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 3.2rem;
+}
+
+.bento-projects-section .portfolio .portfolio-item {
+  width: 31.2rem;
+  height: 58.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.bento-projects-section .portfolio .portfolio-item .portfolio-img {
+  height: 35.5rem;
+  border-radius: 1.7rem;
+}
+
+.bento-projects-section .portfolio .portfolio-item .portfolio-img img {
+  margin-top: 3.1rem;
+}
+
+.bento-projects-section .portfolio .portfolio-item .portfolio-img a button {
+  width: 11.8rem;
+  height: 2.8rem;
+  color: #FFFFFF;
+  border-radius: 1.4rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.3rem;
+}
+
+.bento-projects-section .portfolio .portfolio-item .portfolio-img .featured-product {
+  margin-left: 2.4rem;
+}
+
+.bento-projects-section .portfolio .portfolio-item .portfolio-img .featured-product button {
+  background-color: #908CFF;
+}
+
+.bento-projects-section .portfolio .portfolio-item .portfolio-title {
+  margin-top: 2.4rem;
+  color: #232340;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  font-weight: 700;
+}
+
+.bento-projects-section .portfolio .portfolio-item .portfolio-description {
+  margin-top: 1.6rem;
+  font-weight: 400;
+  line-height: 2.8rem;
+  color: #606060;
+  width: 24rem;
+  height: 8.4rem;
+}
+
+.bento-projects-section .portfolio .portfolio-item .portfolio-arrow {
+  margin-top: 2.4rem;
+  width: 4.8rem;
+  height: 4.8rem;
+  border: 0.2rem solid #232340;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bento-projects-section .portfolio .bento-work-contact-us {
+  margin-bottom: 4.8rem;
+}
+
+.bento-projects-section .portfolio .bento-work-contact-us button {
+  width: 16rem;
+  height: 5.6rem;
+  line-height: 2.2rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #FFFFFF;
+  background: #5468E7;
+  border: 1px solid #D8D8D8;
+  border-radius: 8px;
+  border: none;
+  width: 31.3rem;
+  font-weight: 600;
 }
 
 @media screen and (min-width: 768px) {
@@ -1514,6 +1641,10 @@ header .mobile-menu-hamburguer .span-hamburguer-secondary-color {
 .blue-gradient {
   background: -webkit-gradient(linear, left top, left bottom, from(#3A8FFF), to(#0837AE));
   background: linear-gradient(180deg, #3A8FFF 0%, #0837AE 100%);
+}
+
+.mb-4 {
+  margin-bottom: 4rem;
 }
 
 .cta-section {
@@ -2467,6 +2598,12 @@ header .mobile-menu-hamburguer .span-hamburguer-secondary-color {
   background-position: top right -80px;
 }
 
+.purple-lines {
+  background-image: url(/assets/bg-purple-lines.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
 .footer-dark-lines {
   background-image: url(/assets/footer-bottom-lines-dark.svg);
 }
@@ -3254,6 +3391,10 @@ header .mobile-menu-hamburguer .span-hamburguer-secondary-color {
 .blue-gradient {
   background: -webkit-gradient(linear, left top, left bottom, from(#3A8FFF), to(#0837AE));
   background: linear-gradient(180deg, #3A8FFF 0%, #0837AE 100%);
+}
+
+.mb-4 {
+  margin-bottom: 4rem;
 }
 
 .section-404 {

@@ -51,7 +51,9 @@ $font: 'Roboto', sans-serif;
     background: linear-gradient(180deg, #3A8FFF 0%, #0837AE 100%);
 }
 
-
+.mb-4 {
+    margin-bottom: 4rem;
+}
 
 
 @mixin smallBtn {
