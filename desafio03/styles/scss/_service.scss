@@ -1,0 +1,194 @@
+@import 'variables';
+@import './components/navigation';
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+
+
+}
+
+.what-we-do-section {
+    background-color: $secondary-color;
+
+   .container {
+        
+    .testimonial-list {
+        display: flex;
+        align-items: center;
+        
+
+        .testimonial-number {
+            color: $primary-color;
+            font-weight: 600;
+            font-size: 1.4rem;
+            margin-right: 2.4rem;
+        }
+
+        .testimonial-name {
+            color: $primary-color;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 1.4rem;
+
+        }
+    }
+
+    h2 {
+        margin-top: 2.4rem;
+        font-size: $header-2;
+        color: $dark;
+        font-weight: 700;
+
+        line-height: 4.8rem;
+        width: 22.6rem;
+    }
+   }
+    
+}
+
+.cards-section {
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        gap: 1.6rem;
+
+        .card-item {
+            width: 31.1rem;
+            height: 19rem;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2.2rem;
+            border-radius: 3.2rem;
+            background-color: $secondary-color;
+            box-shadow: 3px 3px 3px #EDEDED;
+
+            transition: .3s ease-in-out;
+
+            &:hover {
+                background-color: $primary-color;
+
+                .card-name {
+                    color: $secondary-color;
+                }
+            }
+    
+            .card-item-circle {
+                width: 9.1rem;
+                height: 9.1rem;
+                border-radius: 50%;
+                
+                
+                display: flex;       
+                justify-content: center;
+                align-items: center;
+                
+                
+            }
+
+            .card-name {
+                color: $primary-color;
+                font-weight: 500;
+                font-size: 1.8rem;
+                line-height: 2.4rem;
+            }
+        }
+    }
+
+}
+
+.achievement-section {
+    margin-top: 4.4rem;
+
+    .container {
+        
+        .testimonial-list {
+            display: flex;
+            align-items: center;
+            
+    
+            .testimonial-number {
+                color: $soft-grey;
+                font-weight: 600;
+                font-size: 1.4rem;
+                margin-right: 2.4rem;
+            }
+    
+            .testimonial-name {
+                color: $dark;
+                font-weight: 600;
+                font-style: normal;
+                font-size: 1.4rem;
+                line-height: 1.8rem;
+    
+            }
+        }
+    
+        h2 {
+            margin-top: 2.4rem;
+            font-size: $header-4;
+            color: $dark;
+            font-weight: 700;
+    
+            line-height: 3.2rem;
+            letter-spacing: -0.2px;
+
+            width: 22.7rem;
+        }
+
+        .achievement-number {
+            display: flex;
+            flex-direction: column;
+
+
+            .branding-number {
+                font-size: 14rem;
+                color: $primary-color;
+                font-weight: 600;
+                line-height: 16.7rem;
+            }
+
+            .achievement-name {
+                font-weight: 600;
+                font-size: 1.8rem;
+                line-height: 2.4rem;
+            }
+
+        }
+       }
+}
+
+.achievement-img {
+    margin-top: 12.5rem;
+    margin-left: 2.2rem;
+    margin-right: 2.2rem;
+    margin-bottom: 8.4rem;
+
+    width: 33rem;
+    height: 33rem;
+    border-radius: 50%;
+
+    background: #FFC7DF;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+       
+        position: absolute;
+        left: 30px;
+       
+    }
+
+
+}
