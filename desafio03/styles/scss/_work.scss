@@ -1,0 +1,520 @@
+@import 'variables';
+@import './components/featured-tag';
+
+.work-section {
+    background-color: $secondary-color;
+
+    .container {
+
+        .testimonial-list {
+            display: flex;
+            align-items: center;
+
+            .logo-tablet-primary {
+                display: none;
+            }
+
+           
+
+            .testimonial-number {
+                color: $primary-color;
+                font-weight: 600;
+                font-size: 1.4rem;
+                margin-right: 2.4rem;
+            }
+
+            .testimonial-name {
+                color: $primary-color;
+                font-weight: 600;
+                font-style: normal;
+                font-size: 1.4rem;
+
+            }
+        }
+
+        .partnership {
+            margin-top: 2.4rem;
+            font-size: $header-2;
+            color: $dark;
+            font-weight: 700;
+
+            line-height: 4.8rem;
+            width: 22.6rem;
+        }
+
+        p {
+            margin-top: 1.6rem;
+            font-weight: 400;
+            line-height: 2.8rem;
+            color: $text-darkest-grey;
+        }
+    }
+
+}
+
+.projects-section {
+
+    .portfolio {
+        display: flex;
+        flex-direction: column;
+
+        gap: 3.2rem;
+
+        .portfolio-item {
+            width: 31.2rem;
+            height: 58.3rem;
+
+            display: flex;
+            flex-direction: column;
+
+            .portfolio-img {
+                height: 35.5rem;
+                border-radius: 1.7rem;
+
+                img {
+                    margin-top: 3.1rem;
+                }
+
+                @include featureTag;
+
+                .featured-product {
+                    margin-left: 2.4rem;
+
+                    button {
+                        background-color: #908CFF;
+                    }
+
+                    
+                }
+            }
+
+            .portfolio-title {
+                margin-top: 2.4rem;
+                color: $dark;
+
+                font-size: 2.4rem;
+                line-height: 3.2rem;
+                font-weight: 700;
+            }
+
+            .portfolio-description {
+                margin-top: 1.6rem;
+                
+                font-weight: 400;
+                line-height: 2.8rem;
+               
+                color: $text-darkest-grey;
+
+                width: 24rem;
+                height: 8.4rem;
+
+            }
+
+            .portfolio-arrow {
+                margin-top: 2.4rem;
+
+                width: 4.8rem;
+                height: 4.8rem;
+
+                border: .2rem solid $dark;
+                border-radius: 50%;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+               
+            }
+        }
+
+        .work-contact-us {
+            margin-bottom: 4.8rem;
+
+            button {
+                @include smallBtn;
+
+                font-weight: 600;
+                width: 100%;
+               
+            
+            }
+        }
+
+    }
+}
+
+.tablet-projects {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .work-section .container .testimonial-list {
+    display: flex;
+    align-items: flex-start;
+   
+    gap: 11.7rem;
+ 
+
+    .logo-tablet-primary {
+        display: block;
+    }
+
+    .flex-tablet {
+        
+    }
+}
+
+.work-tablet-container {
+    display: flex;
+   align-items: center;
+    gap: 5.7rem;
+ 
+
+   .partnership.big {
+    font-size: 6.4rem;
+    line-height: 7.2rem;
+    font-weight: 700;
+    width: 48.5rem;
+    
+    color: $dark;
+
+    display: flex;
+    gap: 1.2rem;
+   }
+
+   .contact-us-link {
+    display: block;
+   }
+    
+}
+
+
+
+.work-title {
+    width: 33.9rem;
+   }
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .projects-section {
+        display: none;
+
+    }
+    
+    .tablet-projects {
+        display: block;
+
+        @include featureTag;
+
+        a {
+            width: 11.8rem;
+            button {
+            font-weight: 600;
+            }
+        }
+        
+        .tablet-card {
+            
+            width: 67rem;
+            height: 37rem;
+            
+            background: url(/assets/tablet-sapiens.svg);
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: 70%;
+
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            .navigation {
+                position: absolute;
+                left: 750px;
+                top: 525.6px;
+            }
+        
+
+            .tablet-title {
+                margin-top: 1.6rem;
+                margin-bottom: 2.4rem;
+                font-size: 3.2rem;
+                line-height: 4rem;
+                font-weight: 900;
+                color: $dark;
+
+            
+            }
+
+            .tablet-paragraph {
+                width: 22.5rem;
+                line-height: 2.8rem;
+                font-weight: 400;
+                color: #606060;
+
+            }
+        }
+
+        .bento-vol2-tablet-card {
+            margin-top: 8rem;
+         
+            position: absolute;
+            left: 360px;
+            top: 870px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           
+            width: 60.7rem;
+            height: 47.4rem;
+
+            gap: 32rem;
+            
+            background-image: url(/assets/bento-vol-2.svg);
+            background-repeat: no-repeat;
+            background-position: center right 160px;
+            background-size: fit;
+
+           
+            .tablet-title {
+                font-size: 3.2rem;
+                line-height: 4rem;
+                font-weight: 900;
+                color: $dark;
+                width: 22.5rem;
+
+                margin-top: 4rem;
+
+            
+            }
+
+            .tablet-paragraph {
+                width: 22.5rem;
+                line-height: 2.8rem;
+                font-weight: 400;
+                color: #606060;
+
+            }
+
+            .port-tablet-link {
+                position: absolute;
+                left: 425px;
+                top: 240px;
+
+                .portfolio-arrow-tablet {
+                    margin-top: 2.4rem;
+
+                width: 4.8rem;
+                height: 4.8rem;
+
+                border: .2rem solid $dark;
+                border-radius: 50%;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+               
+                }
+
+            }
+        }
+
+        .bento-3d-tablet-card {
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           
+            width: 60.7rem;
+            height: 57rem;
+
+            position: absolute;
+            top: 1222px;
+            left: -130px;
+            gap: 40rem;
+            
+            background-image: url(/assets/3d-illust.svg);
+            background-repeat: no-repeat;
+            background-position: center right 120px;
+            
+
+           
+            .tablet-title {
+                font-size: 3.2rem;
+                line-height: 4rem;
+                font-weight: 900;
+                color: $dark;
+               
+
+                margin-top: 4rem;
+
+            
+            }
+
+            .tablet-paragraph {
+                width: 28rem;
+                line-height: 2.8rem;
+                font-weight: 400;
+                color: #606060;
+
+            }
+
+            .port-tablet-link {
+                position: absolute;
+                left: 460px;
+                top: 340px;
+
+                .portfolio-arrow-tablet {
+                    margin-top: 2.4rem;
+
+                width: 4.8rem;
+                height: 4.8rem;
+
+                border: .2rem solid $dark;
+                border-radius: 50%;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+               
+                }
+
+            }
+        }
+
+        .bento-vol3-tablet-card {
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           
+            width: 60.7rem;
+            height: 57rem;
+
+            position: absolute;
+            top: 1722px;
+            left: 350px;
+            gap: 44rem;
+            
+            background-image: url(/assets/bento-vol-3.svg);
+            background-repeat: no-repeat;
+            background-position: center right 80px;
+            background-size: 60%;
+            
+
+           
+            .tablet-title {
+                font-size: 3.2rem;
+                line-height: 4rem;
+                font-weight: 900;
+                color: $dark;
+                width: 28rem;
+
+                margin-top: 4rem;
+
+            
+            }
+
+            .tablet-paragraph {
+                width: 28rem;
+                line-height: 2.8rem;
+                font-weight: 400;
+                color: #606060;
+
+            }
+
+            .port-tablet-link {
+                position: absolute;
+                left: 500px;
+                top: 340px;
+
+                .portfolio-arrow-tablet {
+                    margin-top: 2.4rem;
+
+                width: 4.8rem;
+                height: 4.8rem;
+
+                border: .2rem solid $dark;
+                border-radius: 50%;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+               
+                }
+
+            }
+        }
+
+        .sapiens-tablet-card {
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           
+            width: 50.7rem;
+            height: 60rem;
+
+            position: absolute;
+            top: 2022px;
+            left: -80px;
+            gap: 50rem;
+            
+            background-image: url(/assets/sapiens.svg);
+            background-repeat: no-repeat;
+            background-position: center right 100px;
+            background-size: 60%;
+            
+
+           
+            .tablet-title {
+                font-size: 3.2rem;
+                line-height: 4rem;
+                font-weight: 900;
+                color: $dark;
+                width: 28rem;
+
+
+            
+            }
+
+            .tablet-paragraph {
+                width: 28rem;
+                line-height: 2.8rem;
+                font-weight: 400;
+                color: #606060;
+
+                
+        padding-bottom: 9.1rem;
+            }
+
+            .port-tablet-link {
+                position: absolute;
+                left: 380px;
+                top: 360px;
+
+                .portfolio-arrow-tablet {
+                    margin-top: 2.4rem;
+
+                width: 4.8rem;
+                height: 4.8rem;
+
+                border: .2rem solid $dark;
+                border-radius: 50%;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+               
+                }
+
+            }
+        }
+    }
+}
+

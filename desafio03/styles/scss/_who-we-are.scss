@@ -1,0 +1,292 @@
+.who-we-are-section {
+    padding-top: 6.4rem;
+    background-color: $dark;
+
+
+    .testimonial-list {
+
+        .navigation-arrows-head {
+          display: none;
+        }
+
+        .logo-tablet-primary {
+            display: none;
+        }
+
+        .testimonial-number {
+            color: $soft-grey;
+            font-weight: 600;
+            font-size: 1.4rem;
+            margin-right: 2.4rem;
+        }
+
+        .testimonial-name {
+            color: $secondary-color;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 1.4rem;
+
+        }
+
+    }
+
+    h2 {
+        margin-top: 2.4rem;
+        font-size: $header-2;
+        color: $secondary-color;
+        font-weight: 700;
+
+        line-height: 4.8rem;
+        max-width: 47.6rem;
+
+        
+    }
+
+    .navigation-testimonial {
+        margin-top: 3.2rem;
+        display: flex;
+        align-items: center;
+        padding-bottom: 6rem;
+
+        gap: 5.4rem;
+
+        
+
+        .navigation-arrows {
+            display: flex;
+            align-items: center;
+
+            gap: 1.6rem;
+
+            .navigation-arrow--active {
+                width: 4.8rem;
+                height: 4.8rem;
+
+                border-radius: 50%;
+                background-color: $primary-color;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                transform: rotate(-180deg);
+
+            }
+        }
+
+        .dropdown-menu {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            gap: 5.5rem;
+
+            .dropdown-menu-year {
+                color: $secondary-color;
+                font-size: 1.2rem;
+                line-height: 1.6rem;
+
+                font-weight: 600;
+            }
+        }
+    }
+
+    .who-we-are-hero {
+        background: $dark;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+        .mobile-hero {
+            max-width: 375px;
+        }
+
+        .tablet-hero {
+            display: none;
+        }
+
+
+    }
+}
+
+
+.contact-us {
+    background-color: $dark;
+    padding-top: 5.6rem;
+
+  
+
+    .line {
+        display: none;
+    }
+
+    .contact-us-title {
+        font-weight: 700;
+        font-size: $header-4;
+        color: $secondary-color;
+        line-height: 3.2rem;
+        margin-bottom: 4rem;
+    }
+
+    .contact-us-description {
+        color: $text-dark-grey;
+        line-height: 2.8rem;
+        margin-bottom: 3.2rem;
+    }
+
+    .contact-us-btn {
+        @include smallBtn;
+
+
+    }
+
+    .branding {
+        background-color: $dark;
+
+        padding-top: 5.6rem;
+        padding-bottom: 6.45rem;
+
+        .branding-circle {
+            width: 31rem;
+            height: 31rem;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            box-shadow: 0px 23px 51px rgba(0, 0, 0, 0.242297);
+            border-radius: 50%;
+
+            .branding-number {
+                font-size: 14rem;
+                color: $secondary-color;
+                font-weight: 600;
+                line-height: 16.7rem;
+            }
+
+            .branding-title {
+                font-weight: 600;
+                font-size: 1.8rem;
+                line-height: 2.4rem;
+
+                color: $secondary-color;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+    .who-we-are-section {
+        padding-left: 1.4rem;
+       
+    .testimonial-list {
+       display: flex;
+       align-items: flex-start;
+        
+       gap: 11.7rem;
+       
+       .navigation-arrows-head {
+        display: flex;
+        align-items: center;
+        align-self: center;
+
+        gap: 1.6rem;
+
+        .navigation-arrow-head--active {
+            
+            width: 4.8rem;
+            height: 4.8rem;
+
+            border-radius: 50%;
+            background-color: $primary-color;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            transform: rotate(-180deg);
+
+        }
+    }
+
+       .logo-tablet-primary {
+        display: block;
+    }
+    }
+
+    .navigation-testimonial {
+        display: none;
+    }
+
+   
+
+    .who-we-are-hero {
+        display: flex;
+        margin-top: 6.1rem;
+       
+
+        .mobile-hero {
+            display: none;
+        }
+        
+        .tablet-hero {
+           display: flex;
+            margin-left: 9.9rem;
+            width: 50rem;
+            height: 42rem;
+
+        }
+    }
+   
+
+    }
+
+   
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .contact-us {
+        padding-bottom: 9.3rem;
+
+    .break-container {
+        display: flex;
+
+        .line {
+            display: block;
+            height: 5.6rem;
+            width: 1rem;
+           
+            
+        }
+
+        .branding {
+            padding-top: 0
+            
+        }
+    
+    }
+
+    }
+}
+    
+  
+  
+    
+@media screen and (min-width: 812px) {
+    
+    .tablet-hero {
+        display: flex;
+         margin-left: 9.9rem;
+         width: 61rem;
+         height: 42rem;
+
+      
+
+     }
+}
