@@ -1,0 +1,211 @@
+@import './components/navigation';
+
+.dark-bg {
+    background-color: $dark;
+}
+
+.span-hamburguer-secondary {
+    width: 3.2rem;
+    height: 0.2rem;
+    background-color: $secondary-color;
+}
+
+.by-the-numbers-section {
+    
+    .testimonial-list {
+        display: flex;
+        align-items: center;
+
+        .testimonial-number {
+            color: $secondary-color;
+            font-weight: 600;
+            font-size: 1.4rem;
+            margin-right: 2.4rem;
+        }
+
+        .testimonial-name {
+            color: $secondary-color;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 1.4rem;
+
+        }
+
+
+    }
+
+    h2 {
+        margin-top: 2.4rem;
+        font-size: $header-2;
+        color: $secondary-color;
+        font-weight: 700;
+        line-height: 4.8rem;
+        
+        width: 22.6rem;
+
+        margin-bottom: 2rem;
+    }
+
+    .numbers {
+        margin-top: 4rem;
+
+        display: flex;
+        flex-direction: column;
+        gap: .8rem;
+
+        
+        padding-bottom: 3.2rem;
+
+        border-bottom: .1rem solid rgba(255, 255, 255, 0.2);
+
+        .number-plus {
+            display: flex;
+            align-items: flex-start;
+
+            gap: .8rem;
+            
+            .number {
+                font-size: 14rem;
+                font-weight: 600;
+                line-height: 16.7rem;
+                color: $secondary-color;
+            }
+
+            .plus {
+                letter-spacing: -0.355556px;
+                line-height: 5.1rem;
+                font-weight: 700;
+                font-size: 4.5rem;
+                color: $secondary-color;
+
+                margin-top: 1.6rem;
+            }
+        }
+        
+        p {
+            font-size: 1.8rem;
+            color: $secondary-color;
+            font-weight: 600;
+            line-height: 2.4rem;
+
+        }
+    }
+
+    .by-the-numbers-text {
+        color: $text-dark-grey;
+        line-height: 2.8rem;
+        font-weight: 400;
+        margin-top: 3.2rem;
+
+        text-align: left;
+
+        height: 8.4rem;
+        width: 31rem;
+    }
+
+    .download {
+        margin-top: 3.2rem;
+        
+        display: flex;
+        align-items: center;
+
+        margin-bottom: 4rem;
+
+        gap: 1rem;
+
+        span {
+            width: 3.4rem;
+            height: 3.4rem;
+
+            background-color: $primary-color;
+            border-radius: 50%;
+            
+            cursor: pointer;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .download-text {
+            color: $secondary-color;
+        }
+    }
+
+    .pre-build {
+        padding-bottom: 3.2rem;
+
+        border-bottom: .1rem solid rgba(255, 255, 255, 0.2);
+
+        .number {
+            font-size: 14rem;
+            font-weight: 600;
+            line-height: 16.7rem;
+            color: $secondary-color;
+        }
+
+        p {
+            font-size: 1.8rem;
+            color: $secondary-color;
+            font-weight: 600;
+            line-height: 2.4rem;
+        }
+    }
+
+    .navigation-testimonial-numbers {
+        margin-top: 3.2rem;
+        display: flex;
+        align-items: center;
+        padding-bottom: 6rem;
+
+        justify-content: space-between;
+
+        .navigation-arrows {
+            display: flex;
+            align-items: center;
+
+            gap: 1.6rem;
+
+            .navigation-arrow--active {
+                width: 4.8rem;
+                height: 4.8rem;
+
+                border-radius: 50%;
+                background-color: $primary-color;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                transform: rotate(-180deg);
+
+            }
+        }
+
+        .dropdown-menu {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #303055;
+
+            width: 14.4rem;
+            height: 4.8rem;
+            gap: 5.5rem;
+
+            border-radius: .8rem;
+
+            .dropdown-menu-year {
+                color: $secondary-color;
+                font-size: 1.2rem;
+                line-height: 1.6rem;
+
+                font-weight: 600;
+            }
+        }
+    }
+
+    .by-the-numbers-img-hero {
+
+        margin-bottom: 9.4rem;
+    }
+}
