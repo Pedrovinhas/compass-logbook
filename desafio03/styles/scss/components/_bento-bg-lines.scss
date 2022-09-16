@@ -1,0 +1,60 @@
+.hero-bg-lines {
+    background-image: url(/assets/hero-bg-lines.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.bento-bg-lines {
+    position: absolute;
+    left: 176px;
+    top: -15.31px;
+
+    z-index: -4;
+    
+}
+
+.dark-lines { // Adicionar no container-hider (fullpage)
+    background-image: url(/assets/menu-mobile-lines.svg);
+    background-repeat: no-repeat;
+    background-position: top right -80px;
+}
+
+.footer-dark-lines {
+    background-image: url(/assets/footer-bottom-lines-dark.svg);
+}
+
+
+
+.who-we-are-bg-lines {
+    display: none;
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+    .footer-dark-lines {
+        background-image: none;
+    }
+   
+
+    .footer-bottom-bg-lines-dark-mode {
+        background-image: url(/assets/footer-bottom-bg-lines-tablet-dark-mode.svg);
+        background-position: top right -80px;
+        background-repeat: no-repeat;
+    
+    
+    }
+   
+    .hero-bg-lines {
+    background-image: url(/assets/hero-bg-lines-tablet.svg);
+    background-repeat: no-repeat;
+    background-position: top ;
+    }
+
+    .who-we-are-bg-lines {
+        position: absolute;
+        left: -5.31px;
+        top: 82.73px;
+    }
+}
