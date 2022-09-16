@@ -1,0 +1,258 @@
+@import 'components/job-alert';
+
+.grey-header {
+    background-color: #EDE5F081;
+}
+
+.job-section {
+    background-color: #EDE5F081;
+
+    .job {
+
+        .testimonial-list {
+            display: flex;
+            align-items: center;
+
+
+            .testimonial-number {
+                color: $primary-color;
+                font-weight: 600;
+                font-size: 1.4rem;
+                margin-right: 2.4rem;
+            }
+
+            .testimonial-name {
+                color: $primary-color;
+                font-weight: 600;
+                font-style: normal;
+                font-size: 1.4rem;
+
+            }
+        }
+
+        h2 {
+            margin-top: 2.4rem;
+            font-size: $header-2;
+            color: $dark;
+            font-weight: 700;
+
+            line-height: 4.8rem;
+            width: 22.6rem;
+        }
+
+        p {
+            margin-top: 1.6rem;
+            font-weight: 400;
+            line-height: 2.8rem;
+            color: $text-darkest-grey;
+        }
+    }
+
+}
+
+.job-container {
+    background-color: #EDE5F081;
+
+    .job-apply-section {
+
+        margin-left: 3.2rem;
+        padding-top: 4.8rem;
+
+        display: flex;
+        flex-direction: column;
+        gap: 1.6rem;
+
+      
+
+        .job-card {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: $secondary-color;
+
+            border-top-left-radius: 2.4rem;
+            border-bottom-left-radius: 2.4rem;
+
+            height: 17.5rem;
+
+            &:nth-child(2) {
+                background-color: $dark;
+
+                .job-description {
+
+                    .job-info {
+
+
+                        .job-name {
+                            color: $secondary-color;
+                        }
+                    }
+
+                    .job-experience {
+                        color: $text-dark-grey;
+
+                    }
+
+                }
+
+                .job-img {
+                    width: 15rem;
+                    height: 15rem;
+
+                    background-color: $primary-color;
+
+                    border-top-left-radius: 3.2rem;
+                    border-bottom-left-radius: 3.2rem;
+                }
+            }
+
+            .job-description {
+                display: flex;
+
+                justify-content: center;
+                flex-direction: column;
+                margin-left: 4rem;
+
+
+                width: 100%;
+
+                .job-info {
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    gap: 1.6rem;
+
+
+                    .job-name {
+                        color: $dark;
+                        font-size: $header-4;
+                    }
+
+                }
+
+                .job-experience {
+                    margin-top: 0.4rem;
+                    margin-bottom: 1rem;
+
+                    line-height: 2.8rem;
+                    color: $text-darkest-grey;
+                }
+            }
+        }
+    }
+}
+
+.footer-job {
+    padding-top: 3.2rem;
+    height: 100%;
+    
+    background-color: #EDE5F081;
+}
+
+
+.footer-initial-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer-grey-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+    
+
+    .footer-initial {
+        width: 31rem;
+        height: 54.8rem;
+
+        background-color: $primary-color;
+        border-radius: 2.8rem;
+
+        padding-left: 3.8rem;
+        padding-right: 3.8rem;
+        padding-top: 6.4rem;
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        background-image: url(/assets/footer-lines.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+
+        .footer-card-top {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: -1.6rem;
+            padding-bottom: 4rem;
+
+            
+
+        .footer-hello {
+            width: 100%;
+            margin-top: 3rem;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            gap: 1.3rem;
+
+            .hello-title {
+                font-size: 1.4rem;
+                color: $secondary-color;
+                line-height: 1.8rem;
+                font-weight: 600;
+            }
+        }
+
+        h4 {
+            margin-top: 4rem;
+            text-align: center;
+            font-size: 1.8rem;
+            font-weight: 600;
+            line-height: 2.4rem;
+
+            color: $secondary-color;
+        }
+    }
+    
+    .division-line {
+        width: 31.2rem;
+        height: .2rem;
+        background-color: $secondary-color;
+
+        opacity: .2;
+    }
+
+    .footer-card-bottom {
+        margin-top: 4rem;
+        
+        h2 {
+            text-align: center;
+            font-size: 3.2rem;
+            line-height: 4rem;
+            color: $secondary-color;
+            letter-spacing: -0.5px;
+        }
+
+        a {
+            button {
+                @include smallBtn;
+                margin-top: 4rem;
+                width: 100%;
+                background-color: $secondary-color;
+
+                color: $primary-color;
+                font-weight: 600;
+                line-height: 2.2rem;
+            }
+        }
+    }
+
+    }
+}

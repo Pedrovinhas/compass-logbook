@@ -1,0 +1,104 @@
+@import 'variables';
+
+header {
+    height: 13.8rem;
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .header-navigation {
+        display: none;
+    }
+
+    .header-contact-btn {
+        display: none;
+    }
+
+    .mobile-menu-hamburguer {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+
+        gap: .8rem;
+        
+        .span-hamburguer {
+            width: 3.2rem;
+            height: .2rem;
+
+            background-color: $dark;
+        }
+
+        .span-hamburguer-secondary-color {
+            background-color: $secondary-color;
+            width: 3.2rem;
+            height: .2rem;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    header {
+
+        .header {
+            align-items: center;
+            justify-content: space-between;
+
+            img {
+                align-self: center;
+            }
+
+            .header-navigation {
+                display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 3.6rem;
+
+                    .job-link {
+                        display: flex;
+
+                        align-items: center;
+
+                        .job-alert {
+                            margin-bottom: 1rem;
+                            margin-left: .7rem;
+                        }
+                    }
+                    
+
+                    li {
+                        font-weight: 600;
+                        color: $text-dark-grey;
+                    }
+                    
+                    .active-page {
+                        color: $primary-color;
+                    }
+                }
+            }
+
+            .header-contact-btn {
+                display: block;
+                button {
+                    @include smallBtn;
+                    background-color: $dark;
+                    font-weight: 600;
+                }
+
+                .dark-mode-btn {
+                    background-color: $primary-color;
+                    color: $secondary-color;
+                    font-weight: 600;
+                }
+            }
+
+            .mobile-menu-hamburguer {
+                display: none;
+            }
+
+        }
+    }
+    
