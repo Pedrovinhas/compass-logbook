@@ -1,0 +1,17 @@
+@mixin featureTag {
+
+    a {
+        button {
+            width: 11.8rem;
+            height: 2.8rem;
+
+
+            color: $secondary-color;
+            border-radius: 1.4rem;
+
+            font-weight: 600;
+            font-size: 1.2rem;
+            line-height: 1.3rem;
+        }
+    }
+}
