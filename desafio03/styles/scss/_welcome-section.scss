@@ -1,0 +1,104 @@
+@import 'variables';
+
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+
+    gap: 2.4rem;
+
+
+    .welcome-heading {
+        font-size: $header-1;
+        color: $dark;
+        line-height: 5.6rem;
+        letter-spacing: -0.05rem;
+
+        max-width: 33.2rem;
+    }
+
+    p {
+        color: $light-grey;
+        line-height: 2.8rem;
+        font-weight: 400;
+
+        max-width: 28.1rem;
+    }
+
+    button {
+        @include smallBtn;
+    }
+}
+
+
+
+.hero-img {
+    display: flex;
+    margin-left: -3.2rem;
+    margin-right: -3.2rem;
+
+    width: 40rem;
+    height: 48rem;
+
+    background-image: url('/assets/hero-graphic-mobile.svg');
+    background-position: top right 5px;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+    // img {
+    //     width: 70%;
+    //     align-self: flex-start;
+    //     border: 1px solid red;
+    // }
+}
+
+
+
+// Welcome Section Responsive
+
+@media screen and (min-width: 768px) {
+
+    .hero-img {
+        background: url('/assets/hero-graphic-tablet.svg'); 
+        background-repeat: no-repeat;
+        background-position: cover;
+        position: absolute;
+        left: 355px;
+        top: 157.87px;
+        width: 57.7rem;
+        height: 51.3rem;
+    }
+
+    .flex-container {
+        display: flex;
+        height: 100vh;
+
+    .welcome-section {
+
+        .welcome-heading {
+            font-size:  6.4rem;
+            line-height: 7.2rem;
+
+            width: 33.2rem;
+
+            
+        }
+
+    }
+}
+    
+}
+
+
+// Adjust Margin for Desktop
+
+@media screen and (min-width: 1024px) {
+
+    .flex-container {
+        margin-right: 5.5rem;
+        margin-left: 7.5rem;
+    }
+    
+}
+
+
