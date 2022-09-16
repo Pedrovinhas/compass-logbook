@@ -9,6 +9,9 @@
 ## 💻 Projeto Folio Agency 1.0
 O objetivo do projeto Folio Agency é construir diversas telas conforme o layout do [Figma](https://www.figma.com/file/SB6I496lrUWjhHFYLpbhiZ/Folio-Agency-1.0-(Community)-(Copy)?node-id=0%3A695), utilizando **HTML5**,**SCSS** e **JavaScript**. Para facilitar a demonstração da responsividade, utilizei um plugin para capturar fotos das medidas mais comuns em aparelhos. Você pode consultar todas as prints geradas por esse [link](./.github).
 
+### 📍 Notas
+Algumas imagens o formato SVG estavam mais pesadas que em PNG, então, optei por utilizar a imagem mais leve em comparação com a de melhor resolução.
+
 ## 👩‍💻 Tecnologias
 - ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
