@@ -1,0 +1,83 @@
+@import './components/featured-tag';
+@import './components/bento-bg-lines';
+@import './components/next-page-arrow';
+
+.bento-informations {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+
+    @include featureTag;
+
+   
+
+    .bento-title {
+        font-size: $heading-2;
+        color: $dark;
+        line-height: 7.2rem;
+        font-weight: 600;
+    }
+
+    .bento-paragraph {
+        font-weight: 600;
+        color: $dark;
+        line-height: 2.2rem;
+    }
+
+
+}
+
+.bento-records {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+
+    .record {
+        margin-top: 3.2rem;
+        display: flex;
+        flex-direction: column;
+
+        width: 12rem;
+
+        gap: 1.6rem;
+
+        &:first-child {
+            width: 10rem;
+            margin-right: 3.9rem;
+        }
+
+        span {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 3.1rem;
+            height: 3.1rem;
+
+            border-radius: 50%;
+
+
+        }
+
+        p {
+            color: $primary-color;
+            font-weight: 600;
+            font-size: 1.2rem;
+            line-height: 1.6rem;
+        }
+    }
+}
+
+.bento-img {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    margin-bottom: 6.4rem;
+
+    // img {
+   
+    //     // flex-grow: 1;
+    // }
+   
+}
