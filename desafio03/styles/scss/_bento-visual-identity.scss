@@ -1,0 +1,173 @@
+.vi-section {
+
+    .testimonial-list {
+        display: flex;
+        align-items: center;
+
+        .testimonial-number {
+            color: $primary-color;
+            font-weight: 600;
+            font-size: 1.4rem;
+            margin-right: 2.4rem;
+        }
+
+        .testimonial-name {
+            color: $primary-color;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 1.4rem;
+
+        }
+
+
+    }
+
+    .vi-title {
+        margin-top: 2.4rem;
+        font-size: $header-2;
+        color: $dark;
+        font-weight: 700;
+        line-height: 4.8rem;
+
+        width: 22.6rem;
+
+        margin-bottom: 2rem;
+    }
+
+    .vi-paragraph {
+
+        margin-top: 1.6rem;
+        font-weight: 400;
+        line-height: 2.8rem;
+        color: $text-dark-grey;
+
+        text-align: left;
+
+        width: 31rem;
+
+
+    }
+
+    .number-plus {
+        display: flex;
+        align-items: flex-start;
+        gap: 0.8rem;
+
+        margin-top: 1.6rem;
+
+        .number {
+            font-size: 14rem;
+            font-weight: 600;
+            line-height: 16.7rem;
+            color: $primary-color;
+        }
+
+        .plus {
+            letter-spacing: -0.355556px;
+            line-height: 5.1rem;
+            font-weight: 700;
+            font-size: 4.5rem;
+            color: $primary-color;
+
+            margin-top: 1.6rem;
+
+        }
+    }
+
+
+    .ui-elements {
+
+        .ui-container {
+            display: flex;
+            align-items: center;
+            gap: 5.2rem;
+
+
+            h6 {
+                margin-top: 0.6rem;
+                font-weight: 600;
+                line-height: 2.4rem;
+                font-size: 1.8rem;
+                color: $dark;
+            }
+
+            span {
+                background-color: $primary-color;
+                width: 1.4rem;
+                height: 0.3rem;
+            }
+        }
+
+    }
+
+    .ui-cards {
+       margin-top: 10.2rem;
+        display: flex;
+        align-items: flex-start;
+       
+        gap: 4rem;
+        flex-direction: column;
+
+        width: 28.2rem;
+        height: 28.9rem;
+
+        .ui-card {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+            
+        
+
+            width: 28.2rem;
+
+            .ui-name-container {
+
+                width: 18rem;
+
+                .ui-name {
+                    font-weight: 600;
+                    color: $dark;
+                    line-height: 2.4rem;
+                }
+            }
+
+         
+            .circle {
+                height: 6.8rem;
+                width: 6.8rem;
+
+                
+
+                border-radius: 50%;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+                img {
+                    width: 3.3rem;
+                }
+            }
+            
+        }
+    }
+
+
+    .vi-button {
+        
+
+        button {
+            margin-top: 4.8rem;
+            margin-bottom: 4.8rem;
+
+            @include smallBtn;
+            width: 100%;
+
+            font-weight: 600;
+            line-height: 2.2rem;
+        }
+        
+    }
+
+
+}
