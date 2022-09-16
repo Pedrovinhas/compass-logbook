@@ -1,0 +1,39 @@
+.secondary-color {
+  background-color: #FFFFFF;
+}
+
+.soft-blue {
+  background-color: #D1ECFD;
+}
+
+.primary-color {
+  background-color: #908CFF;
+}
+
+.orange {
+  background-color: #FFBA79;
+}
+
+.pinky {
+  background-color: #FFADD0;
+}
+
+.yellow {
+  background-color: #FFCE79;
+}
+
+.purple {
+  background-color: #C897E4;
+}
+
+.blue-gradient {
+  background: -webkit-gradient(linear, left top, left bottom, from(#3A8FFF), to(#0837AE));
+  background: linear-gradient(180deg, #3A8FFF 0%, #0837AE 100%);
+}
+
+.section-404 {
+  background-color: #232340;
+  width: 100vw;
+  height: 100vh;
+}
+/*# sourceMappingURL=404.css.map */
