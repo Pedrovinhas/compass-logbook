@@ -1,0 +1,16 @@
+.job-alert {
+    width: 2.4rem;
+    height: 2.4rem;
+
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 600;
+    color: $secondary-color;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: linear-gradient(180deg, #3A8FFF 0%, #0837AE 100%);
+    border-radius: 50%;
+}
