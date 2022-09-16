@@ -1,0 +1,79 @@
+$primary-color: #5468E7;
+$secondary-color: #FFFFFF;
+
+$dark: #232340;
+$purple: #C897E4;
+
+$light-grey: #606060;
+$soft-grey: #ADADAD;
+$text-dark-grey: #8B8B8B;
+$text-darkest-grey: #606060;
+$text-mobile-menu: #595976;
+
+$header-1: 4.8rem;
+$header-2: 4rem;
+$header-3: 2.8rem;
+$header-4: 2.4rem;
+$heading-2: 6.4rem;
+$heading-6: 3.2rem;
+
+$font: 'Roboto', sans-serif;
+
+.secondary-color {
+    background-color: $secondary-color;
+}
+
+.soft-blue {
+    background-color: #D1ECFD;
+}
+
+.primary-color {
+    background-color: #908CFF;
+}
+
+.orange {
+    background-color: #FFBA79;
+}
+
+.pinky {
+    background-color: #FFADD0;
+}
+
+.yellow {
+    background-color: #FFCE79;
+}
+
+.purple {
+    background-color: #C897E4;
+}
+
+.blue-gradient {
+    background: linear-gradient(180deg, #3A8FFF 0%, #0837AE 100%);
+}
+
+
+
+
+@mixin smallBtn {
+    width: 16rem;
+    height: 5.6rem;
+    line-height: 2.2rem;
+    font-size: 1.6rem;
+
+    font-weight: 500;
+    color: $secondary-color;
+    background: $primary-color;
+
+    border: 1px solid #D8D8D8;
+    border-radius: 8px;
+
+    border: none;
+}
+
+@mixin bigBtn {
+    @include smallBtn();
+
+    width: 18rem;
+    height: 6.4rem;
+
+}
