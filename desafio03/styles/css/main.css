@@ -1518,6 +1518,7 @@ header .mobile-menu-hamburguer .span-hamburguer-secondary-color {
 
 .cta-section {
   background-color: #FFFFFF;
+  margin-bottom: 8.4rem;
 }
 
 .cta-section .cta {
@@ -3256,7 +3257,7 @@ header .mobile-menu-hamburguer .span-hamburguer-secondary-color {
 }
 
 .section-404 {
-  background-color: #232340;
+  background-color: #5468E7;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
